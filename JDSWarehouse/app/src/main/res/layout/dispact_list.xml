@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:padding="1.5dp"
+    android:background="@color/colorWhite"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:background="@color/light_gray"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+<TextView
+    android:id="@+id/tv_number"
+    android:background="@color/light_green"
+    android:textSize="20sp"
+    android:textStyle="bold"
+    android:padding="20dp"
+    android:text="0"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:padding="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/tv_number"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textColor="@color/colorBlack"
+                android:id="@+id/tv_shop"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:text="SHOP NAME"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:textSize="10sp"
+                android:textColor="@color/colorBlack"
+                android:text="Order/Reference No."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:textColor="@color/colorBlack"
+                android:id="@+id/tv_order"
+                android:textSize="10sp"
+                android:text="#21899378"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+<RelativeLayout
+    android:layout_centerInParent="true"
+    android:layout_marginRight="10dp"
+    android:layout_alignParentRight="true"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+        <LinearLayout
+            android:id="@+id/ll_assign"
+            android:orientation="vertical"
+            android:padding="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textSize="10sp"
+                android:textColor="@color/colorBlack"
+                android:text="(ASSIGNED)"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:textColor="@color/green"
+                android:textStyle="bold"
+                android:id="@+id/tv_name"
+                android:textSize="12sp"
+                android:text="Warenare"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+
+        <Button
+            android:visibility="gone"
+            android:id="@+id/bt_assign"
+            android:padding="2dp"
+            android:textSize="10sp"
+            android:textAllCaps="false"
+            android:textColor="@color/colorWhite"
+            android:text="Assigned Myself"
+            android:background="@drawable/round_cor_fil"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp" />
+</RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

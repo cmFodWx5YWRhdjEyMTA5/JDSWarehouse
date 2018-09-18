@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#323232</color>
+    <color name="colorPrimaryDark">#323232</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorGray">#A9A9A9</color>
+    <color name="divider">#323232</color>
+    <color name="light_gray">#E1E1E1</color>
+    <color name="green">#007D00</color>
+    <color name="light_green">#8CCE84</color>
+    <color name="colorNavy">#123773</color>
+    <color name="colorRed">#C22C37</color>
+    <color name="colorGreen">#4AAB42</color>
+    <color name="actionbar_opacity">#33000000</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="viewfinder_laser">#FFFFFF</color>
+    <color name="viewfinder_border">#FFFFFF</color>
+</resources>

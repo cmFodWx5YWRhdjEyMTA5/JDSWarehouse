@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:id="@+id/g1" android:checkableBehavior="single"  android:menuCategory="secondary">
+        <item
+            android:id="@+id/nav_dispatch"
+            android:icon="@drawable/dispatch"
+            android:title="Dispatch Order Link" />
+    </group>
+
+    <group android:id="@+id/g2" android:checkableBehavior="single"  android:menuCategory="secondary">
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/arrow"
+            android:title="Logout" />
+    </group>
+
+    <group android:id="@+id/g3" android:checkableBehavior="single"  android:menuCategory="secondary">
+        <item
+            android:enabled="false"
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/round_cor_fil"
+            android:title="" />
+    </group>
+
+
+</menu>

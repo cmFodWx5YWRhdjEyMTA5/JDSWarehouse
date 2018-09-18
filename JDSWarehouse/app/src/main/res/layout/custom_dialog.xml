@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:background="@android:color/transparent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:tint="@color/colorWhite"
+        android:id="@+id/iv_close"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/crose"
+        android:layout_width="35dp"
+        android:layout_height="35dp" />
+
+    <LinearLayout
+        android:layout_below="@+id/iv_close"
+        android:padding="20dp"
+        android:orientation="vertical"
+        android:background="@drawable/bt_empty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioGroup
+            android:id="@+id/rb_select"
+            android:weightSum="2"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/rb_pallet"
+                android:buttonTint="@color/colorBlack"
+                android:layout_weight="1"
+                android:text="Pallet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <RadioButton
+                android:id="@+id/rb_vehicle"
+                android:buttonTint="@color/colorBlack"
+                android:checked="true"
+                android:layout_weight="1"
+                android:text="Vehicle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/bt_submit"
+            android:layout_marginRight="40dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/bt_fill_black"
+            android:textColor="@color/colorWhite"
+            android:text="SUBMIT"
+            android:layout_width="match_parent"
+            android:layout_height="35dp" />
+    </LinearLayout>
+
+</RelativeLayout>
